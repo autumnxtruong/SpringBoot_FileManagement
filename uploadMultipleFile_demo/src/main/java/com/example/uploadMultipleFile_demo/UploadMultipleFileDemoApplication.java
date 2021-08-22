@@ -26,4 +26,3 @@ public class UploadMultipleFileDemoApplication implements CommandLineRunner {
 		storageService.init();
 	}
 }
-
