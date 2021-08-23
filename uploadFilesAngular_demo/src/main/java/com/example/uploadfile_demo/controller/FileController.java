@@ -34,12 +34,7 @@ public class FileController {
 //    POST /upload: uploadFile()
 //    GET /files: getListFiles()
 //    GET /files/[id]: getFile()
-
-    @GetMapping("/uploadform")
-    public String uploadForm(){
-
-        return "uploadform";
-    }
+    
 
     //ONLY ALLOW JPG,JPEG,PNG
     //backend/controller -> https://stackoverflow.com/questions/45978598/spring-boot-upload-file-allow-only-images
